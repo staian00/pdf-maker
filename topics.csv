@@ -1,40 +1,40 @@
-Order,Topic,Pages
-1,Variables,2
-2,Lists,3
-3,Functions,3
-4,While-loop,2
-5,Methods,3
-6,Match-case,2
-7,For-loop,3
-8,Type-conversion,2
-9,List Indices,2
-10,Tuples,2
-11,Enumerate,2
-12,F-Strings,2
-13,"Write Text Files, Read Text Files",3
-14,File Paths,2
-15,List Comprehensions,2
-16,Comments,2
-17,With-Context Manager,2
-18,"If, Elif, and Else Conditionals",3
-19,Slicing,2
-20,Dictionaries,3
-21,Try-Except and Exceptions,2
-22,Continue Statement,2
-23,Custom Functions,4
-24,Function Arguments,2
-25,Multiple Arguments,2
-26,Decoupling Output,2
-27,Default Arguments,2
-28,Doc Strings,2
-29,Decoupling Functions,2
-30,Local Modules and Import,2
-31,Standard Modules,2
-32,Git and Github,4
-33,Third-Party Modules,2
-34,GUI,2
-35,Web Development with Streamlit,6
-36,Heroku Deployment,2
-37,PDF Generation with PdfKit,4
-38,Data Handling with Pandas,6
-39,Sending Emails,4
+Order,Topic,Pages,Text
+1,Variables,2,"In Python, variables are used to store data that can be referenced and manipulated throughout your code. A variable is essentially a named location in memory that holds a value. Variables can store different types of data, including numbers, strings, lists, and more."
+2,Lists,3,"A list is a versatile data structure in Python that allows you to store an ordered collection of items, which can be of different data types. Lists are mutable, meaning you can modify them by adding, removing, or changing items. They are defined using square brackets, e.g., my_list = [1, 2, 3, 'a', 'b', 'c']."
+3,Functions,3,"Functions in Python are blocks of reusable code that perform a specific task. They help organize code and make it more modular and manageable. Functions are defined using the def keyword, followed by the function name and parentheses, e.g., def my_function():. They can accept inputs (arguments) and may return a value."
+4,While-loop,2,"A while loop repeatedly executes a block of code as long as a given condition is true. This is useful for scenarios where the number of iterations is not predetermined. If the condition never becomes false, the loop can result in an infinite loop, so it's important to ensure the loop will eventually terminate."
+5,Methods,3,"Methods are functions that are associated with objects. In Python, methods are called on objects and can operate on the data within those objects. For example, list.append() is a method that adds an element to the end of a list. Methods are similar to functions but are used in the context of objects and classes."
+6,Match-case,2,"Introduced in Python 3.10, the match-case statement is a control flow structure that allows pattern matching against specific data structures. It's similar to switch-case statements in other languages but more powerful, enabling detailed pattern matching with complex data types like lists, dictionaries, and custom objects."
+7,For-loop,3,"A for loop is used to iterate over a sequence (like a list, tuple, or string) and execute a block of code for each item in the sequence. It's particularly useful when you know the number of iterations ahead of time. Example: for item in my_list: print(item)."
+8,Type-conversion,2,"Type conversion, or type casting, is the process of converting a variable from one data type to another. Python provides built-in functions like int(), float(), str(), and list() to convert between types. For example, int("123") converts the string "123" to the integer 123."
+9,List Indices,2,"List indices are used to access elements in a list based on their position. Indexing starts at 0, meaning the first element is accessed with index 0, the second with index 1, and so on. Negative indices can be used to access elements from the end of the list, e.g., list[-1] returns the last element."
+10,Tuples,2,"Tuples are similar to lists, but they are immutable, meaning they cannot be changed after creation. Tuples are defined using parentheses, e.g., my_tuple = (1, 2, 3). They are often used for grouping related data and can be unpacked into variables."
+11,Enumerate,2,"The enumerate() function in Python adds a counter to an iterable and returns it as an enumerate object, which can be used in loops. This is useful when you need both the index and the value of each item in a loop. Example: for index, value in enumerate(my_list):."
+12,F-Strings,2,"F-strings, introduced in Python 3.6, are a way to format strings using expressions inside curly braces {}. Prefixed with an f, these strings allow for the inclusion of variables and expressions directly in the string."
+13,"Write Text Files, Read Text Files",3,""
+14,File Paths,2,""
+15,List Comprehensions,2,""
+16,Comments,2,""
+17,With-Context Manager,2,""
+18,"If, Elif, and Else Conditionals",3,""
+19,Slicing,2,""
+20,Dictionaries,3,""
+21,Try-Except and Exceptions,2,""
+22,Continue Statement,2,""
+23,Custom Functions,4,""
+24,Function Arguments,2,""
+25,Multiple Arguments,2,""
+26,Decoupling Output,2,""
+27,Default Arguments,2,""
+28,Doc Strings,2,""
+29,Decoupling Functions,2,""
+30,Local Modules and Import,2,""
+31,Standard Modules,2,""
+32,Git and Github,4,""
+33,Third-Party Modules,2,""
+34,GUI,2,""
+35,Web Development with Streamlit,6,""
+36,Heroku Deployment,2,""
+37,PDF Generation with PdfKit,4,""
+38,Data Handling with Pandas,6,""
+39,Sending Emails,4,""
